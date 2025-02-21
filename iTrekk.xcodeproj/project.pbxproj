@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F65D2C62BA7F0EF005A25FD /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F65D2C52BA7F0EF005A25FD /* ImmersiveView.swift */; };
+		3F65D2C82BA7F12F005A25FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F65D2C72BA7F12F005A25FD /* ContentView.swift */; };
+		3FD0EB532BAA024A00A7A162 /* CoordinatesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0EB522BAA024A00A7A162 /* CoordinatesData.swift */; };
+		3FD0EB552BAA029300A7A162 /* LocationsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0EB542BAA029300A7A162 /* LocationsData.swift */; };
+		3FE144402BA7EB6000633BE3 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 3FE1443F2BA7EB6000633BE3 /* RealityKitContent */; };
+		3FE144422BA7EB6000633BE3 /* iTrekkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE144412BA7EB6000633BE3 /* iTrekkApp.swift */; };
+		3FE144482BA7EB6000633BE3 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 3FE144472BA7EB6000633BE3 /* ImageBasedLighting.skybox */; };
+		3FE1444A2BA7EB6200633BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE144492BA7EB6200633BE3 /* Assets.xcassets */; };
+		3FE1444D2BA7EB6200633BE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE1444C2BA7EB6200633BE3 /* Preview Assets.xcassets */; };
+		3FE144582BA7EB6200633BE3 /* iTrekkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE144572BA7EB6200633BE3 /* iTrekkTests.swift */; };
+		3FE144672BA7EBD700633BE3 /* TypingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE144612BA7EBD500633BE3 /* TypingTextView.swift */; };
+		3FE144692BA7EBD700633BE3 /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE144632BA7EBD500633BE3 /* CustomMapView.swift */; };
+		3FE1446A2BA7EBD700633BE3 /* MapViewWithMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE144642BA7EBD600633BE3 /* MapViewWithMarker.swift */; };
+		3FE1446B2BA7EBD700633BE3 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE144652BA7EBD700633BE3 /* SharedData.swift */; };
+		3FE1446E2BA7EC3000633BE3 /* LocationSelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1446D2BA7EC3000633BE3 /* LocationSelectorViewModel.swift */; };
+		3FE144702BA7EC3600633BE3 /* SharedEnvironmentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1446F2BA7EC3600633BE3 /* SharedEnvironmentData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FE144542BA7EB6200633BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE144322BA7EB6000633BE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FE144392BA7EB6000633BE3;
+			remoteInfo = iTrekk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F65D2C52BA7F0EF005A25FD /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		3F65D2C72BA7F12F005A25FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FD0EB512BA8BF9500A7A162 /* iTrekk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iTrekk.entitlements; sourceTree = "<group>"; };
+		3FD0EB522BAA024A00A7A162 /* CoordinatesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesData.swift; sourceTree = "<group>"; };
+		3FD0EB542BAA029300A7A162 /* LocationsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsData.swift; sourceTree = "<group>"; };
+		3FE1443A2BA7EB6000633BE3 /* iTrekk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTrekk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE1443E2BA7EB6000633BE3 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		3FE144412BA7EB6000633BE3 /* iTrekkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTrekkApp.swift; sourceTree = "<group>"; };
+		3FE144472BA7EB6000633BE3 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		3FE144492BA7EB6200633BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FE1444C2BA7EB6200633BE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FE1444E2BA7EB6200633BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE144532BA7EB6200633BE3 /* iTrekkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTrekkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE144572BA7EB6200633BE3 /* iTrekkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTrekkTests.swift; sourceTree = "<group>"; };
+		3FE144612BA7EBD500633BE3 /* TypingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypingTextView.swift; sourceTree = "<group>"; };
+		3FE144632BA7EBD500633BE3 /* CustomMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMapView.swift; sourceTree = "<group>"; };
+		3FE144642BA7EBD600633BE3 /* MapViewWithMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewWithMarker.swift; sourceTree = "<group>"; };
+		3FE144652BA7EBD700633BE3 /* SharedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+		3FE1446D2BA7EC3000633BE3 /* LocationSelectorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSelectorViewModel.swift; sourceTree = "<group>"; };
+		3FE1446F2BA7EC3600633BE3 /* SharedEnvironmentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedEnvironmentData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE144372BA7EB6000633BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE144402BA7EB6000633BE3 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE144502BA7EB6200633BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FE144312BA7EB6000633BE3 = {
+			isa = PBXGroup;
+			children = (
+				3FE1443C2BA7EB6000633BE3 /* iTrekk */,
+				3FE1443D2BA7EB6000633BE3 /* Packages */,
+				3FE144562BA7EB6200633BE3 /* iTrekkTests */,
+				3FE1443B2BA7EB6000633BE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FE1443B2BA7EB6000633BE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FE1443A2BA7EB6000633BE3 /* iTrekk.app */,
+				3FE144532BA7EB6200633BE3 /* iTrekkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FE1443C2BA7EB6000633BE3 /* iTrekk */ = {
+			isa = PBXGroup;
+			children = (
+				3FD0EB512BA8BF9500A7A162 /* iTrekk.entitlements */,
+				3FE144632BA7EBD500633BE3 /* CustomMapView.swift */,
+				3FE144642BA7EBD600633BE3 /* MapViewWithMarker.swift */,
+				3FE144652BA7EBD700633BE3 /* SharedData.swift */,
+				3FE144612BA7EBD500633BE3 /* TypingTextView.swift */,
+				3FE144412BA7EB6000633BE3 /* iTrekkApp.swift */,
+				3FE1446D2BA7EC3000633BE3 /* LocationSelectorViewModel.swift */,
+				3FE1446F2BA7EC3600633BE3 /* SharedEnvironmentData.swift */,
+				3FE144472BA7EB6000633BE3 /* ImageBasedLighting.skybox */,
+				3FE144492BA7EB6200633BE3 /* Assets.xcassets */,
+				3FE1444E2BA7EB6200633BE3 /* Info.plist */,
+				3FE1444B2BA7EB6200633BE3 /* Preview Content */,
+				3F65D2C52BA7F0EF005A25FD /* ImmersiveView.swift */,
+				3F65D2C72BA7F12F005A25FD /* ContentView.swift */,
+				3FD0EB522BAA024A00A7A162 /* CoordinatesData.swift */,
+				3FD0EB542BAA029300A7A162 /* LocationsData.swift */,
+			);
+			path = iTrekk;
+			sourceTree = "<group>";
+		};
+		3FE1443D2BA7EB6000633BE3 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				3FE1443E2BA7EB6000633BE3 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		3FE1444B2BA7EB6200633BE3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FE1444C2BA7EB6200633BE3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FE144562BA7EB6200633BE3 /* iTrekkTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FE144572BA7EB6200633BE3 /* iTrekkTests.swift */,
+			);
+			path = iTrekkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FE144392BA7EB6000633BE3 /* iTrekk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE1445B2BA7EB6200633BE3 /* Build configuration list for PBXNativeTarget "iTrekk" */;
+			buildPhases = (
+				3FE144362BA7EB6000633BE3 /* Sources */,
+				3FE144372BA7EB6000633BE3 /* Frameworks */,
+				3FE144382BA7EB6000633BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTrekk;
+			packageProductDependencies = (
+				3FE1443F2BA7EB6000633BE3 /* RealityKitContent */,
+			);
+			productName = iTrekk;
+			productReference = 3FE1443A2BA7EB6000633BE3 /* iTrekk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FE144522BA7EB6200633BE3 /* iTrekkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE1445E2BA7EB6200633BE3 /* Build configuration list for PBXNativeTarget "iTrekkTests" */;
+			buildPhases = (
+				3FE1444F2BA7EB6200633BE3 /* Sources */,
+				3FE144502BA7EB6200633BE3 /* Frameworks */,
+				3FE144512BA7EB6200633BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FE144552BA7EB6200633BE3 /* PBXTargetDependency */,
+			);
+			name = iTrekkTests;
+			productName = iTrekkTests;
+			productReference = 3FE144532BA7EB6200633BE3 /* iTrekkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FE144322BA7EB6000633BE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3FE144392BA7EB6000633BE3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					3FE144522BA7EB6200633BE3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3FE144392BA7EB6000633BE3;
+					};
+				};
+			};
+			buildConfigurationList = 3FE144352BA7EB6000633BE3 /* Build configuration list for PBXProject "iTrekk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FE144312BA7EB6000633BE3;
+			productRefGroup = 3FE1443B2BA7EB6000633BE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FE144392BA7EB6000633BE3 /* iTrekk */,
+				3FE144522BA7EB6200633BE3 /* iTrekkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FE144382BA7EB6000633BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE1444A2BA7EB6200633BE3 /* Assets.xcassets in Resources */,
+				3FE1444D2BA7EB6200633BE3 /* Preview Assets.xcassets in Resources */,
+				3FE144482BA7EB6000633BE3 /* ImageBasedLighting.skybox in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE144512BA7EB6200633BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FE144362BA7EB6000633BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE1446E2BA7EC3000633BE3 /* LocationSelectorViewModel.swift in Sources */,
+				3FE144422BA7EB6000633BE3 /* iTrekkApp.swift in Sources */,
+				3FD0EB532BAA024A00A7A162 /* CoordinatesData.swift in Sources */,
+				3F65D2C62BA7F0EF005A25FD /* ImmersiveView.swift in Sources */,
+				3FE1446B2BA7EBD700633BE3 /* SharedData.swift in Sources */,
+				3FD0EB552BAA029300A7A162 /* LocationsData.swift in Sources */,
+				3FE144672BA7EBD700633BE3 /* TypingTextView.swift in Sources */,
+				3F65D2C82BA7F12F005A25FD /* ContentView.swift in Sources */,
+				3FE144702BA7EC3600633BE3 /* SharedEnvironmentData.swift in Sources */,
+				3FE144692BA7EBD700633BE3 /* CustomMapView.swift in Sources */,
+				3FE1446A2BA7EBD700633BE3 /* MapViewWithMarker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE1444F2BA7EB6200633BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE144582BA7EB6200633BE3 /* iTrekkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FE144552BA7EB6200633BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FE144392BA7EB6000633BE3 /* iTrekk */;
+			targetProxy = 3FE144542BA7EB6200633BE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FE144592BA7EB6200633BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		3FE1445A2BA7EB6200633BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		3FE1445C2BA7EB6200633BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = iTrekk/iTrekk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iTrekk/Preview Content\"";
+				DEVELOPMENT_TEAM = ZCYCBV5L8F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = lxsquidofficial.MyImmersiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		3FE1445D2BA7EB6200633BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = iTrekk/iTrekk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iTrekk/Preview Content\"";
+				DEVELOPMENT_TEAM = ZCYCBV5L8F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = lxsquidofficial.MyImmersiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		3FE1445F2BA7EB6200633BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCYCBV5L8F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lxsquidofficial.MyImmersiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTrekk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iTrekk";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		3FE144602BA7EB6200633BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCYCBV5L8F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lxsquidofficial.MyImmersiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTrekk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iTrekk";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FE144352BA7EB6000633BE3 /* Build configuration list for PBXProject "iTrekk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE144592BA7EB6200633BE3 /* Debug */,
+				3FE1445A2BA7EB6200633BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE1445B2BA7EB6200633BE3 /* Build configuration list for PBXNativeTarget "iTrekk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE1445C2BA7EB6200633BE3 /* Debug */,
+				3FE1445D2BA7EB6200633BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE1445E2BA7EB6200633BE3 /* Build configuration list for PBXNativeTarget "iTrekkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE1445F2BA7EB6200633BE3 /* Debug */,
+				3FE144602BA7EB6200633BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3FE1443F2BA7EB6000633BE3 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3FE144322BA7EB6000633BE3 /* Project object */;
+}
